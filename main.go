@@ -1,4 +1,3 @@
-//gitignore *.exe/
 package main
 
 import "fmt"
@@ -10,7 +9,11 @@ var (
 
 func main() {
 	for exit == false {
-		fmt.Println("Welcome to system\n1. Print square\n2. Print triangle\n3. Print trapezoid\n4. Exit")
+		fmt.Println("Welcome to system")
+		fmt.Println("1. Print square")
+		fmt.Println("2. Print triangle")
+		fmt.Println("3. Print trapezoid")
+		fmt.Println("4. Exit")
 		fmt.Scan(&opc)
 
 		switch opc {
